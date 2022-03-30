@@ -1,0 +1,71 @@
+body{
+    background-image: url(/fundo.png);
+    background-size: cover;
+    background-color: #000000;
+    background-repeat: no-repeat;
+
+}
+
+.title-main{
+    text-align: center;
+    font-family: ARCADECLASSIC;
+    font-size: 80px;
+    background-image: linear-gradient(#F0E000, #E0002E);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 1.5px; 
+    -webkit-text-stroke-color: #000000;
+    color: transparent;
+
+    /* O background-clip e tudo o que esta dentro dele que é indicado com um traço e a palavra WEBKIT é o que dá a caracteristica de gradiente na escrita*/
+}
+
+.text{
+    text-align: center;
+    font-family: ARCADECLASSIC;
+    font-size: 40px;
+}
+
+.espace{
+    text-align: center;
+    
+}
+
+#nota1,#nota2,#nota3,#nota4{
+    width:200px;
+    height:55px;
+    color: purple;
+    font-size: 16px;  
+    text-align: center; 
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgba(247, 152, 11, 0.884);
+    
+}
+
+.acao{
+    text-align: center;
+    padding: 45px;
+    
+
+}
+
+.botao{
+    width: 200px;
+    height: 55px;
+    color:firebrick;
+    font-size: 20px;
+    background-color: coral;
+    background-size:60%;
+    opacity: 70%;
+    box-shadow: 3px 3px black;
+}
+
+#notaFinal{
+    text-align: center;
+    font-family: ARCADECLASSIC;
+    color:#FABB16;
+    font-size: 50px;
+}
+
+
